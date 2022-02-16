@@ -13,5 +13,9 @@ function priNajeti() {
 
 let odstavec = document.querySelector('p');
 function priNajetiZtucni() {
-    odstavec.style.fontWeight= 'bold';
+    odstavec.style.fontWeight = 'bold';
+}
+
+function priOdjetiOdtucni() {
+    odstavec.style.fontWeight = 'normal';
 }
