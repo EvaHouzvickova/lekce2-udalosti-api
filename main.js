@@ -19,3 +19,7 @@ function priNajetiZtucni() {
 function priOdjetiOdtucni() {
     odstavec.style.fontWeight = 'normal';
 }
+
+function zmenaBarvy() {
+    odstavec.classList.toggle('tlacitkoZmenaBarvy')
+}
