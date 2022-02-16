@@ -10,3 +10,8 @@ function priNajeti() {
     console.log ('test' + pocitadlo);
     pocitadlo++;
 }
+
+let odstavec = document.querySelector('p');
+function priNajetiZtucni() {
+    odstavec.style.fontWeight= 'bold';
+}
