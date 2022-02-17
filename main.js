@@ -29,3 +29,8 @@ function zmenaVelikosti() {
     let currentSize = parseFloat(style);
     paragraph.style.fontSize = (currentSize + 1) + 'px';
 }
+
+let music = document.querySelector('#music');
+function prehrajHudbu() {
+    music.play();
+}
