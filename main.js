@@ -39,3 +39,14 @@ function zastavHudbu() {
     music.pause();
 }
 
+function ztisitHlasitost() {
+    music.volume = 0;
+}
+
+function pridatHlasitost() {
+    music.volume = 0.5;
+}
+
+function maximalniHlasitost() {
+    music.volume = 1;
+}
