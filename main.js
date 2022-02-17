@@ -11,15 +11,21 @@ function priNajeti() {
     pocitadlo++;
 }
 
-let odstavec = document.querySelector('p');
+let paragraph = document.querySelector('p');
 function priNajetiZtucni() {
-    odstavec.style.fontWeight = 'bold';
+    paragraph.style.fontWeight = 'bold';
 }
 
 function priOdjetiOdtucni() {
-    odstavec.style.fontWeight = 'normal';
+    paragraph.style.fontWeight = 'normal';
 }
 
 function zmenaBarvy() {
-    odstavec.classList.toggle('tlacitkoZmenaBarvy')
+    paragraph.classList.toggle('tlacitkoZmenaBarvy')
+}
+
+function zmenaVelikosti() {
+    let style = window.getComputedStyle(paragraph, null).getPropertyValue('font-size');
+    let currentSize = parseFloat(style);
+    paragraph.style.fontSize = (currentSize + 1) + 'px';
 }
