@@ -50,3 +50,7 @@ function pridatHlasitost() {
 function maximalniHlasitost() {
     music.volume = 1;
 }
+
+function nastavNaZacatek() {
+    music.currentTime = 0;
+}
