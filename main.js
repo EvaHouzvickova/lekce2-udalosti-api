@@ -9,7 +9,7 @@ function priOdjetiOdtucni() {
 }
 
 function zmenaBarvy() {
-    paragraph.classList.toggle('tlacitkoZmenaBarvy')
+    paragraph.classList.toggle('ZmenaBarvy')
 }
 
 function zmenaVelikosti() {
