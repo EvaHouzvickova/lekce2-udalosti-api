@@ -34,3 +34,8 @@ let music = document.querySelector('#music');
 function prehrajHudbu() {
     music.play();
 }
+
+function zastavHudbu() {
+    music.pause();
+}
+
