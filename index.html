@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -8,17 +7,6 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-	<h1>Změna tříd, události</h1>
-
-	<div onmouseover="priNajeti()" class="ctverecek zluty"></div>
-
-	<div class="ctverecek zeleny"></div>
-
-	<img class="obrazek" src="obrazky/kocka.jpg">
-
-	<button class="tlacitko">Čudlajs</button>
-
 	<p onmouseover="priNajetiZtucni()" onmouseout="priOdjetiOdtucni()">“V elipse spí lev.”<p>
 
 	<button class="tlacitko" onclick="zmenaBarvy()">Červený po kliknutí</button>
@@ -27,14 +15,14 @@
 
 	<h1>Audio ovladač</h1>
 	
+	<audio id="music" src="audio/dingdingdang.mp3" preload="auto"></audio>
+	
 	<button class="tlacitko" onclick="prehrajHudbu()">Přehraj</button>
 	<button class="tlacitko" onclick="zastavHudbu()">Pauzni</button>
 	<button class="tlacitko" onclick="ztisitHlasitost()">Ztišit</button>
 	<button class="tlacitko" onclick="pridatHlasitost()">Hlasitost tak akorát</button>
 	<button class="tlacitko" onclick="maximalniHlasitost()">Hlasitost na maximum</button>
 	<button class="tlacitko" onclick="nastavNaZacatek()">Nastav na začátek</button>
-
-	<audio id="music" src="audio/dingdingdang.mp3" preload="auto"></audio>
 
 <script type="text/javascript" src='main.js'></script>
 </body>
